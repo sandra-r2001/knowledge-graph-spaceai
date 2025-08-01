@@ -14,3 +14,18 @@ This script takes short text inputs, generates embeddings using HuggingFace (alt
 ## Notes
 - Neo4j AuraDB Free tier was used.
 - Embeddings generated using `sentence-transformers/all-MiniLM-L6-v2`.
+
+
+### Tools Used
+- Python 3.11+
+- Hugging Face (Sentence Transformers)
+- Neo4j Aura Free
+
+### What it does
+- Embeds text using a transformer model
+- Stores nodes with embeddings in Neo4j
+- Runs cosine similarity to find related texts
+
+### Sample Output
+See output.png for similarity query results.
+See neo4j_screenshot.png for graph structure.
